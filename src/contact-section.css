@@ -1,0 +1,79 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif, Arial;
+
+
+  
+  /* border: 1px solid blue; */
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: helvlight;
+  src: url(HELN.TTF);
+}
+
+/* 
+There is nothing dependent on app.js. 
+So contact-section is completely 
+independent from the main file.
+*/
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-holder {
+  align-self: center;
+  text-align: center;
+}
+
+.find-text {
+  padding: 25px;
+  font-size: 36px;
+  font-weight: lighter;
+  font-family: helvlight;
+}
+
+.social-container span {
+  padding: 0 20px;
+  border-right: 2px solid #2f2e2e;
+  font-size: 24px;
+  font-family: helvlight;
+  cursor: pointer;
+}
+
+.social-container :last-child {
+  padding: 0 20px;
+  border-right: 0px solid #fff;
+}
+
+@media screen and (max-width: 1084px) {
+  .find-text {
+    padding: 25px;
+    font-size: 24px;
+  }
+  
+  .social-container span {
+    padding: 15px 0;
+    font-size: 20px;
+    border-bottom: 2px solid #2f2e2e;
+    border-right: 0px solid #fff;
+    display: block;
+  }
+  
+  .social-container :last-child {
+    padding: 15px 0;
+    border-right: 0px solid #fff;
+    margin-bottom: 50px;
+  }
+}

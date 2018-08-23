@@ -1,0 +1,57 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif, Arial;
+
+
+  
+  /* border: 1px solid blue; */
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face {
+  font-family: helvlight;
+  src: url(HELN.TTF);
+}
+
+.deal-bar-container {
+  height: auto;
+  width: 100%;
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  padding: 5px;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #202020;
+}
+
+.deal-bar-text, .deal-bar-close {
+  display: inline;
+
+  font-size: 13px;
+  font-family: helvlight;
+
+  color: #fff;
+}
+
+.deal-bar-text {align-self: center;text-align: center;width: 100%;}
+
+.deal-bar-close {
+  height: 100%;
+
+  float: right;
+
+}
