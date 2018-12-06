@@ -8,7 +8,7 @@ const App = () => (
 
 
   <div className="main-container">
-    <Deal />
+    {/* <Deal /> */}
 
     <div className="top-container">
       <div className="top-left-container">
