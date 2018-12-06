@@ -44,13 +44,7 @@ independent from the main file.
   font-family: helvlight;
 }
 
-.social-container span {
-  padding: 0 20px;
-  border-right: 2px solid #2f2e2e;
-  font-size: 24px;
-  font-family: helvlight;
-  cursor: pointer;
-}
+
 
 .social-container span a {
   color: #2f2e2e;
@@ -62,10 +56,19 @@ independent from the main file.
   cursor: pointer;
 }
 
-.social-container :last-child {
+.no-pointer {
   padding: 0 20px;
   border-right: 0px solid #fff;
   cursor: default;
+
+  font-size: 24px;
+  font-family: helvlight;
+}
+
+.small {
+
+  font-size: 18px;
+  font-family: helvlight;
 }
 
 @media screen and (max-width: 1084px) {
