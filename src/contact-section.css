@@ -77,7 +77,7 @@ independent from the main file.
     font-size: 24px;
   }
   
-  .social-container span {
+  .social-container span a {
     padding: 15px 0;
     font-size: 20px;
     border-bottom: 2px solid #2f2e2e;
@@ -85,9 +85,11 @@ independent from the main file.
     display: block;
   }
   
-  .social-container :last-child {
-    padding: 15px 0;
+  .no-pointer {
+    padding: 15px 0 50px 0;
     border-right: 0px solid #fff;
     margin-bottom: 50px;
   }
+
+
 }
