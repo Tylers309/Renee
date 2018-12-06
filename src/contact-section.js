@@ -11,7 +11,7 @@ const Contact = () => (
         <span><a href="https://www.instagram.com/rsutton05/" target="_blank"> Instagram </a></span>
         <span><a href="https://www.facebook.com/ohmyposhreneesutton/" target="_blank"> Facebook</a> </span>
         <span><a href="https://Www.reneesposhspa.com">Posh</a></span>
-        <span> Blog coming soon! &#x1f609; </span>
+        <span> Blog (coming soon! &#x1f609;) </span>
       </div>
     </div>
   </div>
