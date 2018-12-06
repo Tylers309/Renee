@@ -10,7 +10,7 @@ const Contact = () => (
       <div className="social-container">
         <span><a href="https://www.instagram.com/rsutton05/" target="_blank"> Instagram </a></span>
         <span><a href="https://www.facebook.com/ohmyposhreneesutton/" target="_blank"> Facebook</a> </span>
-        <span><a href="https://Www.reneesposhspa.com">Posh</a></span>
+        <span><a href="https://www.perfectlyposh.com/?consultant=reneesutton&eventID=&statID=35128267&siteID=9991881&incentiveID=2895&socialType=14&userID=1819646" target="_blank">Posh</a></span>
         <span> Blog (coming soon! &#x1f609;) </span>
       </div>
     </div>

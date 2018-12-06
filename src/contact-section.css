@@ -65,6 +65,7 @@ independent from the main file.
 .social-container :last-child {
   padding: 0 20px;
   border-right: 0px solid #fff;
+  cursor: default;
 }
 
 @media screen and (max-width: 1084px) {
